@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.navbar {
+  justify-content: center;
+  font-size: 1.5em;
+  position: fixed;
+  background-color: #659dbd;
+  width: 100vw;
+  height: 100px;
+}
+
+a {
+  margin-top: 10px;
+  height: 40px;
+  border: 1px solid white;
+}
+
+a :hover {
+  opacity: .3;
+}
+
+section {
+ height: 100vh; 
+ box-sizing: border-box;
+ padding: 110px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.introduction {
+  background-color:  #daad86;
+  text-align: center;
+}
+
+#self-portrait {
+  
+  margin-top: 20px;
+  width: 250px;
+  border-radius: 10%;
+}
+
+.about {
+  background-color: #8d8741;
+}
+
+.projects {
+  background-color: #fbeec1;
+
+}
+
+.contact {
+  background-color: #659dbd;
+}
+
+.skill-icon {
+  width: 50px; 
+  margin-top: 30px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.contact-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#email-button {
+  background-image: url("https://i.pinimg.com/736x/84/6a/03/846a03c6760f83f3a0e92609bca9cebf.jpg");
+  background-size: contain;
+}
+
+#linkedin-button {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3JDyJ3VgIvq1TtyPtQW6sGzqsPPCawjAFKw&usqp=CAU");
+  background-size: contain;
+}
+
+#github-button {
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  background-size: contain;
+}
+
+#resume-button {
+  background-image: url("https://www.seekpng.com/png/detail/122-1225295_download-resume-icon.png");
+  background-size: contain;
+}
